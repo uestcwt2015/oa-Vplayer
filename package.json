@@ -1,0 +1,36 @@
+{
+  "name": "oa-vplayer",
+  "version": "1.0.0",
+  "description": "A html5 video player",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uestcwt2015/oa-Vplayer.git"
+  },
+  "keywords": [
+    "video"
+  ],
+  "author": "Vermouth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uestcwt2015/oa-Vplayer/issues"
+  },
+  "homepage": "https://github.com/uestcwt2015/oa-Vplayer#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.2.0",
+    "eslint-cli": "^1.1.1",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  }
+}
