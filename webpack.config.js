@@ -33,6 +33,36 @@ module.exports = {
                         }
                     }
                 ]
+            },
+            {
+                test: /\.hbs$/,
+                loader: 'handlebars-loader',
+                include: [
+                    path.resolve(__dirname, './src/template/');
+                ]
+            },
+            {
+                test: /\.less$/,
+                include: [
+                    path.resolve(__dirname, './src/assets/styles')
+                ],
+                use: [
+                    {
+                        loader: 'style-loader'
+                    },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            sourceMap: true
+                        }
+                    },
+                    {
+                        loader: 'less-loader',
+                        options: {
+                            sourceMap: true
+                        }
+                    }
+                ]
             }
         ]
     }
